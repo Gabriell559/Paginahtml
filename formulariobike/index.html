@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+        body{
+    background-color: rgb(221, 215, 250);
+    font-family: 'Yanone Kaffeesatz';
+   
+};
+
+    </style>
+</head>
+<body>
+    <form>
+        <label for="nome">Nome Completo</label>
+        <input type="text"  id="nome" placeholder="Digite seu nome completo..." required><br><br>
+
+        <label for="data">Data de Nascimento</label>
+        <input type="date"  id="data" required><br><br>
+
+        <h2>Modalidade de Competição</h2>
+        <label for="radio">Mountain Bike</label>
+        <input type="radio"  id="radio"><br>
+        <label for="radio2">Ciclismo de Estrada</label>
+        <input type="radio"  id="radio2">
+
+        <h2>Alimentação</h2>
+        <label for="h2o">Água</label>
+        <input type="radio"  id="h2o"><br>
+        <label for="lanche">Lanche rápido</label>
+        <input type="radio"  id="lanche"><br>
+        <label for="lanche2">Lanche reforçado</label>
+        <input type="radio"  id="lanche2"> <br>
+        <label for="coca">Coca-Cola</label>
+        <input type="radio"  id="coca"> <br>
+        <label for="barra">Barra proteica</label>
+        <input type="radio"  id="barra">
+
+        <h2>Termos de compromisso</h2>
+        <label for="termos">Li e aceitos os <u>Termos de compromisso e Condições</u></label>
+        <input type="radio" id="termos" required><br><br>
+
+        <input type="button" value="Enviar">
+    </form>
+</body>
+</html>
